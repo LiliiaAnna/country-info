@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <title>Liliia Anna</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <Script src="/js/koroll.js"></Script>
+        <link rel="stylesheet" href="/css/koroll.css">
+       
+    </head>
+<body onload="loadAll()"; loadCountries()>
+    <header>
+    </header>
+    <div class="content-grid">
+      <section class="pick">
+        <h2>Select a Country to see the details</h2>
+        <select id="selectBox" onchange="showCountryInfo()">
+          <option>Select a Country</option>
+        </select>
+      </section>
+      <section id="country-info">
+        <h2>Country Information</h2>
+      </section>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>

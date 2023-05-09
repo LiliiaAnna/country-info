@@ -1,0 +1,103 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    background-color: #e3f6f5; 
+}
+header{
+    font-size: 10px;
+    color: #3c2a4d;
+}
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    
+
+    
+.card {
+        background-color: #95adbe;
+        padding: 10px;
+        color: #3c2a4d;
+        text-align: center;
+        height: 300px;
+    }
+
+#left-panel p {
+    margin: 10px 0;
+}
+
+
+
+
+#right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+#right-panel button {
+    background-color: #bbd4ce; 
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 25px;     
+    width: 250px;
+    height: 45px;
+       
+    }
+
+
+.underline {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+footer{
+
+    font-size: 15px;
+    color:#3c2a4d;
+}
+.border {
+    border: 0.5px solid rgb(31, 59, 218);
+}
+
+.non-mammal-background {
+    background-color: #bbd4ce;
+    padding: 1px;
+}
+
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .pick {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  #country-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
